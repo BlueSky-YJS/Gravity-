@@ -77,6 +77,7 @@ Gravity支持大多数常见的大数据计算框架，支持异构计算网络�
 - 提供计算规模更大的GRAVITY-BIGDATA组件，其中包括：
 
   G-PMR ：去中心化的mapreduce 框架，支持更大的计算规模，跨区域和跨平台调度
+  
   G-FLINK:支持complex Event Processing 的流式计算框架
 
 **限制**
