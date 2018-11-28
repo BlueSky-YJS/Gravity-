@@ -135,7 +135,7 @@ G-FLINK:支持complex Event Processing 的流式计算框架
 
 - 如果限制程序的运行速度可能拿不到奖励
 
-### 安卓手机###
+### 安卓手机
 
 **可以提供**
 
@@ -205,41 +205,41 @@ G-FLINK:支持complex Event Processing 的流式计算框架
 
 ### 算力提供者
 
-**提供算力能做什么
+** 提供算力能做什么
 
 Gravity利用闲置算力资源组成异构的计算网络，能够完成视频渲染/MapReduce计算/资源分发等任务
 
-**异构计算网络如何组网
+** 异构计算网络如何组网
 
 Gravity底层通过P2P网络将加入集群的设备连接起来，并通过Gravity的调度算法动态调整集群节点角色，自适应网络拓扑，增强节点连通性
 
-**提供算力的好处
+**提供算力的好处**
 
 Gravity通过Token激励算力提供者，并能通过token购买Gravity的服务
 
-**提供算力的要求
+**提供算力的要求**
 
 目前Gravity支持Android设备/Linux设备/WinPc运行Gravity软件包加入网络提供算力获取Token
 
-**下载链接
+** 下载链接
 
 -矿盒
 -个人PC
 -Android手机
 
-###算力需求者
+### 算力需求者
 
-**谁能成为算力需求者
+** 谁能成为算力需求者
 
 任何有大数据计算任务，视频渲染任务等需求者都可以成为Gravity平台的算力需求者，目前开放试运行，需要用户向Gravity申请邀请码才能提交任务
 
-**算力需求如何提供解决方案
+**算力需求如何提供解决方案**
 
 目前Gravity开放了ToC 的自助任务提交管理控制台，需要用户通过示例提交作业并可以通过控制台窗口查看作业运行情况
 
 ToB用户可以登录Gravity 联系我们
 
-**算力需求者如何购买Gravity服务
+**算力需求者如何购买Gravity服务**
 
 Gravity可以通过购买Token获取Gravity的计算网络服务
 
@@ -251,7 +251,7 @@ Gravity可以通过购买Token获取Gravity的计算网络服务
 
 ## 使用流程
 
-**矿盒
+**矿盒**
 
 -配置工作目录
 
@@ -272,7 +272,7 @@ chmod a+x $GRAVITY_HOME/bin/stop.sh
 ```
 sh $GRAVITY_HOME/bin/start.sh
 ```
-**个人PC
+**个人PC**
 
 -配置环境变量 GRAVITY_HOME
 
@@ -284,7 +284,7 @@ sh $GRAVITY_HOME/bin/start.sh
 ```
 java -cp $GRAVITY_HOME/lib/* -Xms512M -Xmx4096M -XX:PermSize=128M -XX:MaxPermSize=512M com.dxchain.pmr.nodeModule.NodeModuleStarter $GRAVITY_HOME
 ```
-**Android 手机
+**Android手机 **
 
 -申请Gravity客户端邀请码
 
