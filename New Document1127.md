@@ -22,13 +22,9 @@ Gravity的主要用户是算力需求者和算力提供者。算力提供者提�
 **案例**
 
 - 视频渲染
-
 - 大数据处理
-
 - 供应链金融
-
 - 传统数据中心资源利用
-
 - 个人电脑出租
 
 #### 算力提供者
@@ -36,13 +32,9 @@ Gravity的主要用户是算力需求者和算力提供者。算力提供者提�
 矿工可以从世界任何角落，亦或是任何型号的智能设备加入Gravity计算网络，并通过提供计算资源获取收益，增加收入
 
 - 申请出租
-
 - 下载安装
-
 - 接收任务
-
 - 完成任务
-
 - 获得收益
 
 #### 算力需求者
@@ -50,11 +42,8 @@ Gravity的主要用户是算力需求者和算力提供者。算力提供者提�
 需要计算能力的中小企业使用Gravity来代替集中式云服务，超高性价比来获取任务结果。
 
 - 选择资源
-
 - 下订单达成交易
-
 - 启动任务
-
 - 获取任务结果
 
 # 用例
@@ -182,9 +171,9 @@ Gravity通过Token激励算力提供者，并能通过token购买Gravity的服�
 
 **下载链接**
 
--矿盒
--个人PC
--Android手机
+- 矿盒
+- 个人PC
+- Android手机
 
 ### 算力需求者
 
@@ -243,7 +232,7 @@ sh $GRAVITY_HOME/bin/start.sh
 ```
 java -cp $GRAVITY_HOME/lib/* -Xms512M -Xmx4096M -XX:PermSize=128M -XX:MaxPermSize=512M com.dxchain.pmr.nodeModule.NodeModuleStarter $GRAVITY_HOME
 ```
-**Android手机 **
+**Android手机**
 
 -申请Gravity客户端邀请码
 
