@@ -237,4 +237,4 @@ java -cp $GRAVITY_HOME/lib/* -Xms512M -Xmx4096M -XX:PermSize=128M -XX:MaxPermSiz
 -申请Gravity客户端邀请码
 
 -通过手机号登陆App 并开启节点接收任务
-
+![](http://www.baidu.com)
